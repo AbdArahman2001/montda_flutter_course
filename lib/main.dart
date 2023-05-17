@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'home_screen.dart';
+import 'lec_03_flutter/home_screen.dart'as home_screen;
+import 'my_goals_screen.dart';
 
 main(){
   runApp(HomeScreen());
@@ -11,9 +11,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return const  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyGoalsScreen(),
+      home: home_screen.HomeScreen(),
     );
   }
 }

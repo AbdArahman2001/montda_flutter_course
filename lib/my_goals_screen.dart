@@ -35,7 +35,7 @@ class _MyGoalsScreenState extends State<MyGoalsScreen> {
             const SizedBox(
               height: 30,
             ),
-            Image.asset("test_assets/goal.png"),
+            Image.asset("assets/images/goal.png"),
             const Text(
               "My Goals",
               style: TextStyle(fontSize: 22, color: Colors.white),
